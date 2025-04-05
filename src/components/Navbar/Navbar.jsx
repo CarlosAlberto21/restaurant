@@ -2,11 +2,10 @@ import React from 'react'
 import Logo from "../../assets/logo.png";
 import {FaCartShopping} from "react-icons/fa6"
 import DarkMode from './DarkMode';
-import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200'>
-      <div className='container py-3 sm:'>
+      <div className='container py-3'>
             <div className="flex justify-between items-center">
                 <div>
                     <a href='#' className='flex items-center gap-2 text-2xl sm:text-3xl font-bold'>
@@ -19,17 +18,18 @@ const Navbar = () => {
                     <DarkMode/>
                   </div>
                     <ul className='hidden sm:flex gap-4'>
-                        <li className='inline-block py-4 px4 hover:text-primary'><Link to="/">Menu</Link> </li>
-                        <li className='inline-block py-4 px4 hover:text-primary'><Link to="/nosotros">Nosotros</Link> </li>
-                        <li className='inline-block py-4 px4 hover:text-primary'><Link to="/registrate">Registrate</Link></li>
-                        <li className='inline-block py-4 px4 hover:text-primary'><Link to="/contacto">Contacto</Link></li> 
+                        <li className='inline-block py-4 px-4 hover:text-primary'>Menu </li>
+                   <li className='inline-block py-4 px-4 hover:text-primary'>Contacto </li>
+                   <li className='inline-block py-4 px-4 hover:text-primary'>Nosotros </li>
+                   <li className='inline-block py-4 px-4 hover:text-primary'>Blog </li>
+                   <li className='inline-block py-4 px-4 hover:text-primary'>Acerca de nosotros </li>
                     </ul>
                     <button className='bg-gradient-to-r
                     from-primary to-secondary
                     text-white px-4 py-1
                     rounded-full hover:scale-105
                     duration-300 flex items-center gap-3'>
-                      <Link to="/order">Carrito</Link>
+                      Carrito
                       <FaCartShopping
                       className='text-xl
                       text-white drop-shadow-sm

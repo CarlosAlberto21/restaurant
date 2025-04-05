@@ -10,12 +10,26 @@ import Banner from './components/Banner/Banner';
 import AppStore from './components/AppStore/AppStore';
 import Services from './components/Services/Services';
 import Testimonial from './components/Testimonial/Testimonial';
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const App = () => {
+
+
+        React.useEffect(() => {
+          AOS.init({
+            duration: 500,
+            offset:100,
+            delay:100,
+            easing: 'ease-in-out'
+          });
+      
+          AOS.refresh();
+        }, [])
+
   return (
     <div>
-    <Navbar /> 
+    <Navbar/>
     <Hero/>
     <Services/>
     <Banner/>
