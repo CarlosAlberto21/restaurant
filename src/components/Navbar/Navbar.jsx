@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div>
                     <a href='#' className='flex items-center gap-2 text-2xl sm:text-3xl font-bold'>
                         <img src={Logo} alt='Foddie Zone' className='w-10'/>
-                        Foddie
+                        Comida
                     </a>
                 </div>
                 <div className='flex items-center gap-4'>
