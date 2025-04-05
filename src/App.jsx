@@ -5,22 +5,16 @@ import Footer from './components/Footer/Footer'
 import Menu from './Views/Menu';
 import Order from './Views/Order';
 import Nosotros from './Views/Nosotros';
+import Hero from './components/Hero/Hero';
+import Banner from './components/Banner/Banner';
 
 
 const App = () => {
   return (
     <div>
-    
-      
-       <BrowserRouter>
-       <Navbar/>
-
-      <Routes>
-        <Route path="/" element={<Menu />} />
-        <Route path="/nosotros" element={<Nosotros />} />
-        <Route path="/order" element={<Order />} />
-      </Routes>
-    </BrowserRouter>
+    <Navbar /> 
+    <Hero/>
+    <Banner/>
  
     </div>
   )
