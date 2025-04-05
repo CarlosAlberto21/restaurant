@@ -7,6 +7,9 @@ import Order from './Views/Order';
 import Nosotros from './Views/Nosotros';
 import Hero from './components/Hero/Hero';
 import Banner from './components/Banner/Banner';
+import AppStore from './components/AppStore/AppStore';
+import Services from './components/Services/Services';
+import Testimonial from './components/Testimonial/Testimonial';
 
 
 const App = () => {
@@ -14,8 +17,11 @@ const App = () => {
     <div>
     <Navbar /> 
     <Hero/>
+    <Services/>
     <Banner/>
- 
+    <AppStore/>
+    <Testimonial/>
+    <Footer/>
     </div>
   )
 }
