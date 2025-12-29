@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/Logo.png'
+import Logo from '../../assets/logo.png'
 import { FaLocationArrow } from 'react-icons/fa'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { FaEnvelope } from 'react-icons/fa'
