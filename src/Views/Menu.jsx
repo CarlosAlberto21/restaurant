@@ -2,10 +2,11 @@ import React from 'react'
 import Hero from '../components/Hero/Hero'
 import Services from '../components/Services/Services'
 import Banner from '../components/Banner/Banner'
-import AppStore from '../components/AppStore/AppStore'
+import AppStore from '../components/Footer/Footer'
 import Testimonial from '../components/Testimonial/Testimonial' 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Footer from '../components/Footer/Footer'
 
 const Menu = () => {
 
@@ -26,8 +27,8 @@ const Menu = () => {
       <Hero/>
       <Services/>
       <Banner/>
-      <AppStore/>
       <Testimonial/>
+      <Footer/>
     </div>
   )
 }

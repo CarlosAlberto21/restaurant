@@ -18,6 +18,7 @@ const Navbar = () => {
                   <div> 
                     <DarkMode/>
                   </div>
+                   
                     <ul className='hidden sm:flex gap-4'>
                         <li className='inline-block py-4 px4 hover:text-primary'><Link to="/">Menu</Link> </li>
                         <li className='inline-block py-4 px4 hover:text-primary'><Link to="/nosotros">Nosotros</Link> </li>
